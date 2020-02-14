@@ -59,6 +59,6 @@ namespace DogChallenge
   myDog.Bark(1);
   Console.WriteLine(myDog.GetTag());
   }
- }
+}
 }
    
