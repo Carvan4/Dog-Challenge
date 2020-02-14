@@ -1,0 +1,22 @@
+using system;
+namespace DogChallenge
+{
+  public enum Gender (Male, Female);
+  
+  class Dog
+{
+  private string name;
+  private string owner;
+  private int age;
+  private Gender Gender;
+  
+  public Dog(string name, string owner, int age, Gender gender)
+  {
+    this.name = name;
+    this.owner = owner;
+    this.age = age;
+    this.gender = gender;
+  }
+  
+  public void Bark(int times)
+  {
