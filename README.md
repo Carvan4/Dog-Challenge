@@ -28,7 +28,7 @@ namespace DogChallenge
     Console.WriteLine();
   }
   
-  public stirng GetTag()
+  public string GetTag()
   {
     string tag = "If lost, call "+owner+".";
     if(gender == 0)
